@@ -13,6 +13,8 @@ edad = document.getElementById("txtIdEdad").value;
 
 alert("Usted se llama " +nombre + " y tiene " +edad + " años");
 
-
+// hay otra manera de hacerlo
+//alert(`Usted se llama ${nombre} y tiene ${edad} años`)
+//a esto " `` "  se llama back tick
 }
 
