@@ -10,13 +10,15 @@ let resultado;
 
 n1 = document.getElementById("txtIdNumeroUno").value;
 
+n1 = parseInt(n1);
+
 n2 = document.getElementById("txtIdNumeroDos").value;
+
+n2 = parseInt(n2);
 
 resultado= n1 + n2;
 
 alert ("la suma es " +resultado);
-
-
 
 
 
