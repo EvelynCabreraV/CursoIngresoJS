@@ -15,7 +15,6 @@ function mostrar()
 // copio el nombre que tengo guardo en la variable nombre dentro de la caja de texto embebida de la pagina html
 document.getElementById("txtIdNombre").value = nombre;
 
- 
 /*
 la entrada hay dos
 nombre = prompt("Ingrese su nombre");
@@ -25,7 +24,6 @@ nombre = document.getElementById("txtIdNombre").value;
 mostrar hay 3 maneras;
 document.getElementById("txtIdNombre").value = nombre; 
 alert (nombre);
-alert ("su nombre es " + nombre + "bienvenida");
-*/
-}
+alert ("su nombre es " + nombre + "bienvenida")*/
 
+}

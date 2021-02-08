@@ -44,9 +44,8 @@ function PrecioFinal ()
     let PrecioDos;
     let PrecioTres;
     let sumar;
-    let promedio;
-    let iva;
     let precioFinal;
+    const IVA = 21;
 
     PrecioUno = parseFloat(document.getElementById("txtIdPrecioUno").value);
     PrecioDos = parseFloat(document.getElementById("txtIdPrecioDos").value);
@@ -54,11 +53,7 @@ function PrecioFinal ()
 
     sumar = PrecioUno + PrecioDos + PrecioTres;
 
-    promedio = sumar / 3;
-
-    iva = promedio * 21 / 100;
-
-    precioFinal = iva + sumar;
+    precioFinal = sumar + sumar * IVA / 100;
 
     precioFinal = precioFinal.toFixed(2);
     //esto transforma a la variable, agregandole las decimales en este caso 2
